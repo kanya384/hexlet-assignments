@@ -1,0 +1,14 @@
+---
+# BEGIN
+
+# END
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+users:
+  admins:
+    - gjoinsey1@blogger.com
+    - scrosi4@cam.ac.uk
+    - brundle@cam.ac.uk
+
