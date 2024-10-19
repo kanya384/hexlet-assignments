@@ -1,0 +1,8 @@
+# BEGIN
+spring:
+  datasource:
+    url: jdbc:h2:file:./test
+    username: admin
+    password: admin
+    driverClassName: org.h2.Driver
+# END
