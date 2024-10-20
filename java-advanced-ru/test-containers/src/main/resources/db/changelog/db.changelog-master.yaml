@@ -1,0 +1,21 @@
+databaseChangeLog:
+  -  changeSet:
+       id:  1
+       author:  hexlet
+       changes:
+         -  createTable:
+              tableName:  people
+              columns:
+                -  column:
+                     name:  id
+                     type:  bigint
+                     autoIncrement:  true
+                     constraints:
+                       primaryKey:  true
+                       nullable:  false
+                -  column:
+                     name:  first_name
+                     type:  varchar(255)
+                -  column:
+                     name:  last_name
+                     type:  varchar(255)
